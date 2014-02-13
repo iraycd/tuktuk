@@ -1,3 +1,4 @@
+@import "__constants.styl"
 .button, button
   position: relative
   display: inline-block
@@ -17,7 +18,7 @@
   &:not(.icon)
     padding: 0 1em
     & .icon, & .loading
-      margin-right: (AIR / 4)
+      margin-right AIR/4
 
   &.large
     font-size: FONT-SIZE-LARGE

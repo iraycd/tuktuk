@@ -5,16 +5,21 @@
   "homepage": "http://tuktuk.tapquo.com",
   "author": {
     "name": "Javi Jimenez",
-    "site": "https://twitter.com/soyjavi"},
-  "license": [ {"type": "GPLv3"} ],
+    "site": "https://twitter.com/soyjavi"
+  },
+  "license": [
+    {
+      "type": "GPLv3"
+    }
+  ],
   "devDependencies": {
-    "grunt": "*",
-    "grunt-contrib-coffee": "*",
-    "grunt-contrib-stylus": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-concat": "*",
-    "grunt-contrib-copy": "*",
-    "grunt-contrib-watch": "*"
+    "gulp": "~3.3.4",
+    "gulp-util": "~2.2.10",
+    "gulp-coffee": "~1.2.5",
+    "gulp-stylus": "0.0.9",
+    "gulp-uglify": "~0.1.0",
+    "gulp-concat": "~2.1.7",
+    "gulp-watch": "~0.4.2"
   },
   "scripts": {},
   "engines": {}
